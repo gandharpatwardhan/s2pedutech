@@ -1,0 +1,76 @@
+/* slider */
+#wrapper2 {
+    width: 2200px;
+    position: relative;
+    left: 0px;
+	transition: left .5s ease-in-out;
+}
+.content {
+    float: left;
+    width: 550px;
+    height: 350px;
+    white-space: normal;
+	color: #ffffff;
+	font-size: 2.5em;
+    background-repeat: no-repeat;
+}
+#itemOne2 {
+    background-color: #ADFF2F;
+    background-image: url("../img/blueSquare.png");
+}
+#itemTwo2{
+    background-color: #FF7F50;
+    background-image: url("../img/yelloSquare.png");
+}
+#itemThree2 {
+    background-color: #1E90FF;
+    background-image: url("../img/pinkSquare.png");
+}
+#itemFour2 {
+    background-color: #DC143C;
+    background-image: url("../img/graySquare.png");
+}
+#contentContainer2 {
+    width: 550px;
+    height: 350px;
+    border: 5px black solid;
+    overflow: hidden;
+}
+
+#navLinks2 {
+    text-align: center;
+    width: 550px;
+}
+#navLinks2 ul {
+margin: 0px;
+padding: 0px;
+display: inline-block;
+margin-top: 6px;
+}
+
+#navLinks2 ul li {
+float: left;
+text-align: center;
+margin: 10px;
+list-style: none;
+cursor: pointer;
+background-color: #CCCCCC;
+padding: 5px;
+border-radius: 50%;
+border: black 5px solid;
+}
+
+#navLinks2 ul li:hover {
+background-color: #FFFF00;
+}
+
+#navLinks2 ul li.active {
+background-color: #333333;
+color: #FFFFFF;
+outline-width: 7px;
+}
+
+#navLinks2 ul li.active:hover {
+	background-color: #484848;
+	color: #FFFFFF;
+}
